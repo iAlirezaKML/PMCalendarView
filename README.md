@@ -1,6 +1,6 @@
 # PMCalendarView
 
-PMCalendar View is as fork of <a href="https://github.com/nbwar/NWCalendarView/issues">NWCalendarView</a> Project, an IOS control that displays a calendar. It is perfect for appointment or availibilty selection. It allows for selection of a single date or a range. It also allows to disable dates that are unavailable.
+PMCalendar View is a fork of <a href="https://github.com/nbwar/NWCalendarView/issues">NWCalendarView</a> Project, an IOS control that displays a calendar. It is perfect for appointment or availibilty selection. It allows for selection of a single date or a range. It also allows to disable dates that are unavailable.
 
 <p align="center">
   <img src="http://i.imgur.com/XsIX6F6.png" height=400 width=400/>
