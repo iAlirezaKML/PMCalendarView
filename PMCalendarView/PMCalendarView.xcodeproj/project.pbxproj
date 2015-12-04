@@ -305,7 +305,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/PMCalendarView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ak.PMCalendarView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.peymayesh.PMCalendarView;
 				PRODUCT_NAME = PMCalendarView;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -324,7 +324,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/PMCalendarView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ak.PMCalendarView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.peymayesh.PMCalendarView;
 				PRODUCT_NAME = PMCalendarView;
 				SKIP_INSTALL = YES;
 			};

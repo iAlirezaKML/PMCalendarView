@@ -2,8 +2,8 @@
 //  PMCalendar.h
 //  PMCalendar
 //
-//  Created by Alireza Kamali on 9/13/1394 .
-//  Copyright © 1394 AP Alireza Kamali. All rights reserved.
+//  Created by Peymayesh on 9/13/1394 .
+//  Copyright © 1394 AP Peymayesh. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
