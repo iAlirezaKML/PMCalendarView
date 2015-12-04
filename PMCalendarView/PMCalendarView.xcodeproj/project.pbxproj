@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB2F4DBE1C11AAA400BBEFBC /* PMCalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = BB2F4DBD1C11AAA400BBEFBC /* PMCalendar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB2F4DCE1C11AAFC00BBEFBC /* NSCalendar+PMCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2F4DC51C11AAFC00BBEFBC /* NSCalendar+PMCalendarView.swift */; };
+		BB2F4DCF1C11AAFC00BBEFBC /* NSDate+PMCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2F4DC61C11AAFC00BBEFBC /* NSDate+PMCalendarView.swift */; };
+		BB2F4DD01C11AAFC00BBEFBC /* PMCalendarCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2F4DC71C11AAFC00BBEFBC /* PMCalendarCache.swift */; };
+		BB2F4DD11C11AAFC00BBEFBC /* PMCalendarDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2F4DC81C11AAFC00BBEFBC /* PMCalendarDayView.swift */; };
+		BB2F4DD21C11AAFC00BBEFBC /* PMCalendarMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2F4DC91C11AAFC00BBEFBC /* PMCalendarMenuView.swift */; };
+		BB2F4DD31C11AAFC00BBEFBC /* PMCalendarMonthContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2F4DCA1C11AAFC00BBEFBC /* PMCalendarMonthContentView.swift */; };
+		BB2F4DD41C11AAFC00BBEFBC /* PMCalendarMonthSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2F4DCB1C11AAFC00BBEFBC /* PMCalendarMonthSelectorView.swift */; };
+		BB2F4DD51C11AAFC00BBEFBC /* PMCalendarMonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2F4DCC1C11AAFC00BBEFBC /* PMCalendarMonthView.swift */; };
+		BB2F4DD61C11AAFC00BBEFBC /* PMCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2F4DCD1C11AAFC00BBEFBC /* PMCalendarView.swift */; };
+		BB2F4DDE1C11AC9A00BBEFBC /* PMCalendar-next-month.png in Resources */ = {isa = PBXBuildFile; fileRef = BB2F4DD81C11AC9A00BBEFBC /* PMCalendar-next-month.png */; };
+		BB2F4DDF1C11AC9A00BBEFBC /* PMCalendar-next-month@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB2F4DD91C11AC9A00BBEFBC /* PMCalendar-next-month@2x.png */; };
+		BB2F4DE01C11AC9A00BBEFBC /* PMCalendar-next-month@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB2F4DDA1C11AC9A00BBEFBC /* PMCalendar-next-month@3x.png */; };
+		BB2F4DE11C11AC9A00BBEFBC /* PMCalendar-prev-month.png in Resources */ = {isa = PBXBuildFile; fileRef = BB2F4DDB1C11AC9A00BBEFBC /* PMCalendar-prev-month.png */; };
+		BB2F4DE21C11AC9A00BBEFBC /* PMCalendar-prev-month@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB2F4DDC1C11AC9A00BBEFBC /* PMCalendar-prev-month@2x.png */; };
+		BB2F4DE31C11AC9A00BBEFBC /* PMCalendar-prev-month@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB2F4DDD1C11AC9A00BBEFBC /* PMCalendar-prev-month@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB2F4DBA1C11AAA400BBEFBC /* PMCalendarView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PMCalendarView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB2F4DBD1C11AAA400BBEFBC /* PMCalendar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMCalendar.h; sourceTree = "<group>"; };
+		BB2F4DBF1C11AAA400BBEFBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB2F4DC51C11AAFC00BBEFBC /* NSCalendar+PMCalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSCalendar+PMCalendarView.swift"; sourceTree = "<group>"; };
+		BB2F4DC61C11AAFC00BBEFBC /* NSDate+PMCalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+PMCalendarView.swift"; sourceTree = "<group>"; };
+		BB2F4DC71C11AAFC00BBEFBC /* PMCalendarCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PMCalendarCache.swift; sourceTree = "<group>"; };
+		BB2F4DC81C11AAFC00BBEFBC /* PMCalendarDayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PMCalendarDayView.swift; sourceTree = "<group>"; };
+		BB2F4DC91C11AAFC00BBEFBC /* PMCalendarMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PMCalendarMenuView.swift; sourceTree = "<group>"; };
+		BB2F4DCA1C11AAFC00BBEFBC /* PMCalendarMonthContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PMCalendarMonthContentView.swift; sourceTree = "<group>"; };
+		BB2F4DCB1C11AAFC00BBEFBC /* PMCalendarMonthSelectorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PMCalendarMonthSelectorView.swift; sourceTree = "<group>"; };
+		BB2F4DCC1C11AAFC00BBEFBC /* PMCalendarMonthView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PMCalendarMonthView.swift; sourceTree = "<group>"; };
+		BB2F4DCD1C11AAFC00BBEFBC /* PMCalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PMCalendarView.swift; sourceTree = "<group>"; };
+		BB2F4DD81C11AC9A00BBEFBC /* PMCalendar-next-month.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PMCalendar-next-month.png"; sourceTree = "<group>"; };
+		BB2F4DD91C11AC9A00BBEFBC /* PMCalendar-next-month@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PMCalendar-next-month@2x.png"; sourceTree = "<group>"; };
+		BB2F4DDA1C11AC9A00BBEFBC /* PMCalendar-next-month@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PMCalendar-next-month@3x.png"; sourceTree = "<group>"; };
+		BB2F4DDB1C11AC9A00BBEFBC /* PMCalendar-prev-month.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PMCalendar-prev-month.png"; sourceTree = "<group>"; };
+		BB2F4DDC1C11AC9A00BBEFBC /* PMCalendar-prev-month@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PMCalendar-prev-month@2x.png"; sourceTree = "<group>"; };
+		BB2F4DDD1C11AC9A00BBEFBC /* PMCalendar-prev-month@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PMCalendar-prev-month@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB2F4DB61C11AAA400BBEFBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB2F4DB01C11AAA400BBEFBC = {
+			isa = PBXGroup;
+			children = (
+				BB2F4DBC1C11AAA400BBEFBC /* PMCalendarView */,
+				BB2F4DBB1C11AAA400BBEFBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB2F4DBB1C11AAA400BBEFBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB2F4DBA1C11AAA400BBEFBC /* PMCalendarView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB2F4DBC1C11AAA400BBEFBC /* PMCalendarView */ = {
+			isa = PBXGroup;
+			children = (
+				BB2F4DD71C11AC9A00BBEFBC /* Images */,
+				BB2F4DC51C11AAFC00BBEFBC /* NSCalendar+PMCalendarView.swift */,
+				BB2F4DC61C11AAFC00BBEFBC /* NSDate+PMCalendarView.swift */,
+				BB2F4DC71C11AAFC00BBEFBC /* PMCalendarCache.swift */,
+				BB2F4DC81C11AAFC00BBEFBC /* PMCalendarDayView.swift */,
+				BB2F4DC91C11AAFC00BBEFBC /* PMCalendarMenuView.swift */,
+				BB2F4DCA1C11AAFC00BBEFBC /* PMCalendarMonthContentView.swift */,
+				BB2F4DCB1C11AAFC00BBEFBC /* PMCalendarMonthSelectorView.swift */,
+				BB2F4DCC1C11AAFC00BBEFBC /* PMCalendarMonthView.swift */,
+				BB2F4DCD1C11AAFC00BBEFBC /* PMCalendarView.swift */,
+				BB2F4DBD1C11AAA400BBEFBC /* PMCalendar.h */,
+				BB2F4DBF1C11AAA400BBEFBC /* Info.plist */,
+			);
+			path = PMCalendarView;
+			sourceTree = "<group>";
+		};
+		BB2F4DD71C11AC9A00BBEFBC /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				BB2F4DD81C11AC9A00BBEFBC /* PMCalendar-next-month.png */,
+				BB2F4DD91C11AC9A00BBEFBC /* PMCalendar-next-month@2x.png */,
+				BB2F4DDA1C11AC9A00BBEFBC /* PMCalendar-next-month@3x.png */,
+				BB2F4DDB1C11AC9A00BBEFBC /* PMCalendar-prev-month.png */,
+				BB2F4DDC1C11AC9A00BBEFBC /* PMCalendar-prev-month@2x.png */,
+				BB2F4DDD1C11AC9A00BBEFBC /* PMCalendar-prev-month@3x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BB2F4DB71C11AAA400BBEFBC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB2F4DBE1C11AAA400BBEFBC /* PMCalendar.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BB2F4DB91C11AAA400BBEFBC /* PMCalendarView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB2F4DC21C11AAA400BBEFBC /* Build configuration list for PBXNativeTarget "PMCalendarView" */;
+			buildPhases = (
+				BB2F4DB51C11AAA400BBEFBC /* Sources */,
+				BB2F4DB61C11AAA400BBEFBC /* Frameworks */,
+				BB2F4DB71C11AAA400BBEFBC /* Headers */,
+				BB2F4DB81C11AAA400BBEFBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PMCalendarView;
+			productName = PMCalendar;
+			productReference = BB2F4DBA1C11AAA400BBEFBC /* PMCalendarView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB2F4DB11C11AAA400BBEFBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Alireza Kamali";
+				TargetAttributes = {
+					BB2F4DB91C11AAA400BBEFBC = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = BB2F4DB41C11AAA400BBEFBC /* Build configuration list for PBXProject "PMCalendarView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BB2F4DB01C11AAA400BBEFBC;
+			productRefGroup = BB2F4DBB1C11AAA400BBEFBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB2F4DB91C11AAA400BBEFBC /* PMCalendarView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB2F4DB81C11AAA400BBEFBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB2F4DE11C11AC9A00BBEFBC /* PMCalendar-prev-month.png in Resources */,
+				BB2F4DDE1C11AC9A00BBEFBC /* PMCalendar-next-month.png in Resources */,
+				BB2F4DE31C11AC9A00BBEFBC /* PMCalendar-prev-month@3x.png in Resources */,
+				BB2F4DE21C11AC9A00BBEFBC /* PMCalendar-prev-month@2x.png in Resources */,
+				BB2F4DDF1C11AC9A00BBEFBC /* PMCalendar-next-month@2x.png in Resources */,
+				BB2F4DE01C11AC9A00BBEFBC /* PMCalendar-next-month@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB2F4DB51C11AAA400BBEFBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB2F4DD01C11AAFC00BBEFBC /* PMCalendarCache.swift in Sources */,
+				BB2F4DD21C11AAFC00BBEFBC /* PMCalendarMenuView.swift in Sources */,
+				BB2F4DD41C11AAFC00BBEFBC /* PMCalendarMonthSelectorView.swift in Sources */,
+				BB2F4DCF1C11AAFC00BBEFBC /* NSDate+PMCalendarView.swift in Sources */,
+				BB2F4DD51C11AAFC00BBEFBC /* PMCalendarMonthView.swift in Sources */,
+				BB2F4DD11C11AAFC00BBEFBC /* PMCalendarDayView.swift in Sources */,
+				BB2F4DD31C11AAFC00BBEFBC /* PMCalendarMonthContentView.swift in Sources */,
+				BB2F4DCE1C11AAFC00BBEFBC /* NSCalendar+PMCalendarView.swift in Sources */,
+				BB2F4DD61C11AAFC00BBEFBC /* PMCalendarView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BB2F4DC01C11AAA400BBEFBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BB2F4DC11C11AAA400BBEFBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BB2F4DC31C11AAA400BBEFBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/PMCalendarView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ak.PMCalendarView;
+				PRODUCT_NAME = PMCalendarView;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB2F4DC41C11AAA400BBEFBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/PMCalendarView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ak.PMCalendarView;
+				PRODUCT_NAME = PMCalendarView;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB2F4DB41C11AAA400BBEFBC /* Build configuration list for PBXProject "PMCalendarView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB2F4DC01C11AAA400BBEFBC /* Debug */,
+				BB2F4DC11C11AAA400BBEFBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB2F4DC21C11AAA400BBEFBC /* Build configuration list for PBXNativeTarget "PMCalendarView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB2F4DC31C11AAA400BBEFBC /* Debug */,
+				BB2F4DC41C11AAA400BBEFBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB2F4DB11C11AAA400BBEFBC /* Project object */;
+}
